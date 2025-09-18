@@ -46,7 +46,7 @@ function checkMatch() {
     if (card1.dataset.color === card2.dataset.color) {
         card1.classList.add('matched');
         card2.classList.add('matched');
-        score += 2;
+        score += 20;
         scoreElement.textContent = `Score: ${score}`;
     } else {
         card1.textContent = '?';

@@ -29,7 +29,7 @@ h1 {
 
 #game-container {
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 80px);
     grid-gap: 10px;
     background-color: #fff;
     padding: 10px;
@@ -37,8 +37,8 @@ h1 {
 }
 
 .card {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: #ddd;
     display: flex;
     justify-content: center;
